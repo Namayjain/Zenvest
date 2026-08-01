@@ -324,6 +324,126 @@ export const services: Service[] = [
         text: "The single biggest mistake parents make is starting late. With Zenvest, you start with a written plan, a monthly SIP, and a review calendar — so the goal moves from wish to work-in-progress."
       }
     ]
+  },
+  {
+    slug: "life-insurance",
+    title: "Life Insurance",
+    tagline: "Protect what matters most.",
+    short:
+      "Comprehensive life coverage to ensure your family's financial security in your absence.",
+    icon: "LI",
+    heroImage: "/images/services/life-insurance-hero.jpg",
+    cardImage: "/images/services/life-insurance-card.jpg",
+    color: "navy",
+    content: [
+      {
+        type: "paragraph",
+        text: "Life insurance is the foundation of any robust financial plan. It provides a crucial safety net, ensuring that your family's lifestyle, debts, and future goals are secure even if you are no longer around."
+      },
+      {
+        type: "image",
+        src: "/images/services/life-insurance-body-1.jpg",
+        alt: "Family enjoying time together"
+      },
+      {
+        type: "heading",
+        text: "Key aspects of our life insurance planning"
+      },
+      {
+        type: "bullets",
+        items: [
+          "Human Life Value (HLV) calculation to determine adequate coverage.",
+          "Focus on pure term insurance for maximum protection at minimum cost.",
+          "Assessment of existing liabilities like home loans or business debts.",
+          "Securing future milestones like children's education and marriage.",
+          "Periodic review of coverage as your income and responsibilities grow."
+        ]
+      },
+      {
+        type: "paragraph",
+        text: "We help you cut through the noise of complex insurance products. We do not mix insurance with investments; instead, we recommend pure protection plans that offer the highest cover for your premium, providing true peace of mind."
+      }
+    ]
+  },
+  {
+    slug: "health-insurance",
+    title: "Health Insurance",
+    tagline: "Health comes first. Always.",
+    short:
+      "Comprehensive medical coverage to protect your savings from unexpected healthcare costs.",
+    icon: "HI",
+    heroImage: "/images/services/health-insurance-hero.png",
+    cardImage: "/images/services/health-insurance-card.png",
+    color: "moss",
+    content: [
+      {
+        type: "paragraph",
+        text: "A single medical emergency can wipe out years of savings if you are not adequately insured. Health insurance is not just about paying hospital bills; it's about protecting your wealth and ensuring access to the best medical care without compromise."
+      },
+      {
+        type: "image",
+        src: "/images/services/health-insurance-body-1.png",
+        alt: "Doctor consulting with a patient"
+      },
+      {
+        type: "heading",
+        text: "Our approach to health insurance"
+      },
+      {
+        type: "bullets",
+        items: [
+          "Evaluating individual vs. family floater plans based on your family structure.",
+          "Identifying policies with no room rent capping or co-payment clauses.",
+          "Adding super top-up plans for cost-effective, high-value coverage.",
+          "Ensuring adequate cover for pre-existing diseases and day-care procedures.",
+          "Assistance during the claims process to ensure smooth cashless or reimbursement settlements."
+        ]
+      },
+      {
+        type: "paragraph",
+        text: "We analyze policies across multiple providers to find the one that offers the best coverage features, wide network hospitals, and strong claim settlement ratios, tailored to your specific health needs and budget."
+      }
+    ]
+  },
+  {
+    slug: "retirement-saving",
+    title: "Retirement Saving",
+    tagline: "Your golden years, secured.",
+    short:
+      "Strategic retirement planning to build a corpus that outlives you and beats inflation.",
+    icon: "RS",
+    heroImage: "/images/services/retirement-saving-hero.jpg",
+    cardImage: "/images/services/retirement-saving-card.jpg",
+    color: "gold",
+    content: [
+      {
+        type: "paragraph",
+        text: "Retirement planning is about ensuring financial independence when your active income stops. With increasing life expectancy and rising healthcare costs, it's vital to build a retirement corpus that can provide a steady, inflation-adjusted income for 20-30 years post-retirement."
+      },
+      {
+        type: "image",
+        src: "/images/services/retirement-saving-body-1.jpg",
+        alt: "Older couple enjoying a walk on the beach"
+      },
+      {
+        type: "heading",
+        text: "Building a resilient retirement portfolio"
+      },
+      {
+        type: "bullets",
+        items: [
+          "Estimating future expenses considering lifestyle inflation and healthcare.",
+          "Aggressive wealth accumulation strategies during your peak earning years.",
+          "Systematic transition to low-risk, income-generating assets as retirement nears.",
+          "Optimizing tax implications of retirement withdrawals and pension income.",
+          "Setting up Systematic Withdrawal Plans (SWPs) for a predictable monthly income."
+        ]
+      },
+      {
+        type: "paragraph",
+        text: "Our goal is to help you maintain your desired standard of living without the fear of outliving your savings. We design a glide path that balances growth and capital preservation, so you can enjoy your golden years with complete financial dignity."
+      }
+    ]
   }
 ];
 

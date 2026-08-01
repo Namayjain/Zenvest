@@ -32,9 +32,7 @@ export default function ServiceHeroImage({
         transition={{ duration: 0.3 }}
         className="absolute inset-0 bg-gradient-to-t from-navy-900/40 via-transparent to-transparent"
       />
-      <span className="absolute left-5 top-5 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-navy-800">
-        {icon}
-      </span>
+
     </motion.div>
   );
 }

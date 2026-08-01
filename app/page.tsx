@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import InvestmentProcess from "@/components/InvestmentProcess";
 import WhyUs from "@/components/WhyUs";
 import FAQ from "@/components/FAQ";
 import Testimonials from "@/components/Testimonials";
@@ -10,6 +11,7 @@ export default function HomePage() {
     <>
       <Hero />
       <Services />
+      <InvestmentProcess />
       <WhyUs />
       <FAQ />
       <Testimonials />

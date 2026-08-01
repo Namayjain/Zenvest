@@ -100,14 +100,12 @@ export default function Footer() {
       </Container>
 
       <div className="border-t border-navy-100 bg-white/60">
-        <Container className="flex flex-col items-center justify-between gap-3 py-5 text-xs text-navy-600 md:flex-row">
-          <p>
-            &copy; {new Date().getFullYear()} Zenvest Wealth. All rights reserved. |{" "}
-            <span className="font-semibold text-navy-800">{site.arn}</span>
+        <Container className="flex flex-col items-start gap-3 py-5 text-xs text-navy-600">
+          <p className="max-w-3xl leading-relaxed text-navy-700">
+            &copy; {new Date().getFullYear()} Zenvest Wealth. All rights reserved. | <span className="font-semibold text-navy-800">{site.arn}</span>
           </p>
-          <p className="text-navy-500">
-            Mutual fund investments are subject to market risks. Read all scheme
-            related documents carefully.
+          <p className="max-w-3xl leading-relaxed text-navy-600">
+            Risk Factors – Investments in Mutual Funds are subject to Market Risks. Read all scheme related documents carefully before investing. Mutual Fund Schemes do not assure or guarantee any returns. Past performances of any Mutual Fund Scheme may or may not be sustained in future. There is no guarantee that the investment objective of any suggested scheme shall be achieved. All existing and prospective investors are advised to check and evaluate the Exit loads and other cost structure (TER) applicable at the time of making the investment before finalizing on any investment decision for Mutual Funds schemes. We deal in Regular Plans only for Mutual Fund Schemes and earn a Trailing Commission on client investments. Disclosure For Commission earnings is made to clients at the time of investments. Option of Direct Plan for every Mutual Fund Scheme is available to investors offering advantage of lower expense ratio. We are not entitled to earn any commission on Direct plans. Hence we do not deal in Direct Plans.
           </p>
         </Container>
       </div>

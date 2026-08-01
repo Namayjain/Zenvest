@@ -82,11 +82,7 @@ export default function Services() {
                       transition={{ duration: 0.3 }}
                       className="absolute inset-0 bg-gradient-to-t from-navy-900/50 via-transparent to-transparent" 
                     />
-                    <span
-                      className={`absolute left-3 top-3 rounded-full px-3 py-1 text-[11px] font-semibold uppercase tracking-widest ${c.tag}`}
-                    >
-                      {s.icon}
-                    </span>
+
                     <span className="absolute right-3 top-3 inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/90 text-navy-800 shadow-sm transition-transform group-hover:rotate-12">
                       <ArrowUpRight size={16} />
                     </span>
