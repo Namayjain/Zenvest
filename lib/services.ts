@@ -24,8 +24,8 @@ export const services: Service[] = [
     short:
       "Curated equity, debt, and hybrid mutual fund portfolios matched to your goals and risk profile.",
     icon: "MF",
-    heroImage: "/images/services/mutual-funds-hero.jpg",
-    cardImage: "/images/services/mutual-funds-card.jpg",
+    heroImage: "/images/services/mutual-funds-hero.webp",
+    cardImage: "/images/services/mutual-funds-card.webp",
     color: "navy",
     content: [
       {
@@ -34,7 +34,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/mutual-funds-body-1.jpg",
+        src: "/images/services/mutual-funds-body-1.webp",
         alt: "Illustration of diversified mutual fund portfolio"
       },
       {
@@ -57,7 +57,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/mutual-funds-body-2.jpg",
+        src: "/images/services/mutual-funds-body-2.webp",
         alt: "Expert reviewing mutual fund performance with a client"
       },
       {
@@ -87,8 +87,8 @@ export const services: Service[] = [
     short:
       "Corporate and bank fixed deposits offering assured returns, laddered tenures, and predictable cash flows.",
     icon: "FD",
-    heroImage: "/images/services/fixed-deposits-hero.jpg",
-    cardImage: "/images/services/fixed-deposits-card.jpg",
+    heroImage: "/images/services/fixed-deposits-hero.webp",
+    cardImage: "/images/services/fixed-deposits-card.webp",
     color: "gold",
     content: [
       {
@@ -97,7 +97,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/fixed-deposits-body-1.jpg",
+        src: "/images/services/fixed-deposits-body-1.webp",
         alt: "Rupee coins stacked with a passbook"
       },
       {
@@ -120,7 +120,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/fixed-deposits-body-2.jpg",
+        src: "/images/services/fixed-deposits-body-2.webp",
         alt: "Investor reviewing FD certificates on a laptop"
       },
       {
@@ -136,8 +136,8 @@ export const services: Service[] = [
     short:
       "Government securities, PSU bonds, and high-quality corporate bonds for stable, tax-efficient income.",
     icon: "B",
-    heroImage: "/images/services/bonds-hero.jpg",
-    cardImage: "/images/services/bonds-card.jpg",
+    heroImage: "/images/services/bonds-hero.webp",
+    cardImage: "/images/services/bonds-card.webp",
     color: "moss",
     content: [
       {
@@ -146,7 +146,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/bonds-body-1.jpg",
+        src: "/images/services/bonds-body-1.webp",
         alt: "Bond certificate with an Indian flag in the background"
       },
       {
@@ -169,7 +169,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/bonds-body-2.jpg",
+        src: "/images/services/bonds-body-2.webp",
         alt: "Yield curve chart on a monitor"
       },
       {
@@ -185,8 +185,8 @@ export const services: Service[] = [
     short:
       "Section 80C, 80D and beyond — ELSS, NPS, PPF, and insurance mapped to your tax and life goals.",
     icon: "TS",
-    heroImage: "/images/services/tax-saving-hero.jpg",
-    cardImage: "/images/services/tax-saving-card.jpg",
+    heroImage: "/images/services/tax-saving-hero.webp",
+    cardImage: "/images/services/tax-saving-card.webp",
     color: "gold",
     content: [
       {
@@ -195,7 +195,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/tax-saving-body-1.jpg",
+        src: "/images/services/tax-saving-body-1.webp",
         alt: "Calculator, tax forms and a cup of tea on a desk"
       },
       {
@@ -218,7 +218,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/tax-saving-body-2.jpg",
+        src: "/images/services/tax-saving-body-2.webp",
         alt: "Expert explaining tax-saving strategy on a whiteboard"
       },
       {
@@ -234,8 +234,8 @@ export const services: Service[] = [
     short:
       "SEBI-regulated Portfolio Management Services and Alternative Investment Funds for HNI and UHNI investors.",
     icon: "PMS",
-    heroImage: "/images/services/pms-aif-hero.jpg",
-    cardImage: "/images/services/pms-aif-card.jpg",
+    heroImage: "/images/services/pms-aif-hero.webp",
+    cardImage: "/images/services/pms-aif-card.webp",
     color: "navy",
     content: [
       {
@@ -244,7 +244,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/pms-aif-body-1.jpg",
+        src: "/images/services/pms-aif-body-1.webp",
         alt: "Boardroom with portfolio analysis on screens"
       },
       {
@@ -267,7 +267,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/pms-aif-body-2.jpg",
+        src: "/images/services/pms-aif-body-2.webp",
         alt: "Detailed portfolio report on a tablet"
       },
       {
@@ -283,8 +283,8 @@ export const services: Service[] = [
     short:
       "Goal-based plans for school fees, higher education, and life milestones — built to compound over decades.",
     icon: "CF",
-    heroImage: "/images/services/child-future-hero.jpg",
-    cardImage: "/images/services/child-future-card.jpg",
+    heroImage: "/images/services/child-future-hero.webp",
+    cardImage: "/images/services/child-future-card.webp",
     color: "moss",
     content: [
       {
@@ -293,7 +293,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/child-future-body-1.jpg",
+        src: "/images/services/child-future-body-1.webp",
         alt: "Parent and child looking at a graduation cap"
       },
       {
@@ -316,7 +316,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/child-future-body-2.jpg",
+        src: "/images/services/child-future-body-2.webp",
         alt: "Piggy bank with a graduation cap"
       },
       {
@@ -332,8 +332,8 @@ export const services: Service[] = [
     short:
       "Comprehensive life coverage to ensure your family's financial security in your absence.",
     icon: "LI",
-    heroImage: "/images/services/life-insurance-hero.jpg",
-    cardImage: "/images/services/life-insurance-card.jpg",
+    heroImage: "/images/services/life-insurance-hero.webp",
+    cardImage: "/images/services/life-insurance-card.webp",
     color: "navy",
     content: [
       {
@@ -342,7 +342,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/life-insurance-body-1.jpg",
+        src: "/images/services/life-insurance-body-1.webp",
         alt: "Family enjoying time together"
       },
       {
@@ -372,8 +372,8 @@ export const services: Service[] = [
     short:
       "Comprehensive medical coverage to protect your savings from unexpected healthcare costs.",
     icon: "HI",
-    heroImage: "/images/services/health-insurance-hero.png",
-    cardImage: "/images/services/health-insurance-card.png",
+    heroImage: "/images/services/health-insurance-hero.webp",
+    cardImage: "/images/services/health-insurance-card.webp",
     color: "moss",
     content: [
       {
@@ -382,7 +382,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/health-insurance-body-1.png",
+        src: "/images/services/health-insurance-body-1.webp",
         alt: "Doctor consulting with a patient"
       },
       {
@@ -412,8 +412,8 @@ export const services: Service[] = [
     short:
       "Strategic retirement planning to build a corpus that outlives you and beats inflation.",
     icon: "RS",
-    heroImage: "/images/services/retirement-saving-hero.jpg",
-    cardImage: "/images/services/retirement-saving-card.jpg",
+    heroImage: "/images/services/retirement-saving-hero.webp",
+    cardImage: "/images/services/retirement-saving-card.webp",
     color: "gold",
     content: [
       {
@@ -422,7 +422,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/retirement-saving-body-1.jpg",
+        src: "/images/services/retirement-saving-body-1.webp",
         alt: "Older couple enjoying a walk on the beach"
       },
       {
@@ -451,8 +451,8 @@ export const services: Service[] = [
     tagline: "Instant liquidity. Zero liquidation.",
     short: "Raise instant funds against your shares, mutual funds, and insurance without selling them.",
     icon: "LAS",
-    heroImage: "/images/services/las-hero.png",
-    cardImage: "/images/services/las-card.png",
+    heroImage: "/images/services/las-hero.webp",
+    cardImage: "/images/services/las-card.webp",
     color: "gold",
     content: [
       {
@@ -461,7 +461,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/las-body.png",
+        src: "/images/services/las-body.webp",
         alt: "Illustration of overdraft facility against investments"
       },
       {
@@ -490,8 +490,8 @@ export const services: Service[] = [
     tagline: "Advanced strategies for sophisticated investors.",
     short: "Bridge the gap between mutual funds and PMS with SEBI-regulated alternative strategies.",
     icon: "SIF",
-    heroImage: "/images/services/sif-hero.png",
-    cardImage: "/images/services/sif-card.png",
+    heroImage: "/images/services/sif-hero.webp",
+    cardImage: "/images/services/sif-card.webp",
     color: "navy",
     content: [
       {
@@ -500,7 +500,7 @@ export const services: Service[] = [
       },
       {
         type: "image",
-        src: "/images/services/sif-body.png",
+        src: "/images/services/sif-body.webp",
         alt: "Dashboard showing advanced specialized investment fund strategies"
       },
       {

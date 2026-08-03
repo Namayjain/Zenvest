@@ -10,28 +10,28 @@ const steps = [
     title: "Know Your Goals",
     description:
       "Understand your financial aspirations, current financial position, and risk profile.",
-    image: "/images/process/step-1.png",
+    image: "/images/process/step-1.webp",
     icon: <Target size={32} className="text-moss-600" />
   },
   {
     title: "Create Your Financial Roadmap",
     description:
       "Develop a personalized, goal-based investment plan tailored to your timeline and priorities.",
-    image: "/images/process/step-2.png",
+    image: "/images/process/step-2.webp",
     icon: <Map size={32} className="text-moss-600" />
   },
   {
     title: "Invest Smartly",
     description:
       "Choose suitable mutual fund solutions and start investing systematically to build long-term wealth.",
-    image: "/images/process/step-3.png",
+    image: "/images/process/step-3.webp",
     icon: <TrendingUp size={32} className="text-moss-600" />
   },
   {
     title: "Review & Stay on Track",
     description:
       "Monitor your portfolio regularly, review progress, and make adjustments as your goals or circumstances evolve.",
-    image: "/images/process/step-4.png",
+    image: "/images/process/step-4.webp",
     icon: <RefreshCw size={32} className="text-moss-600" />
   }
 ];

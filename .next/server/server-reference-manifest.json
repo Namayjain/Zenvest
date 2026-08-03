@@ -1,34 +1,5 @@
 {
-  "node": {
-    "0595665e484e495bd4bcb70d9d2fc8a15c84a7e0": {
-      "workers": {
-        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cnamay%20jain%5C%5CDownloads%5C%5Czenwest%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%22logout%22%2C%22authenticate%22%5D%5D%5D&__client_imported__=!",
-        "app/admin/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cnamay%20jain%5C%5CDownloads%5C%5Czenwest%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%22logout%22%2C%22authenticate%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/admin/page": "rsc",
-        "app/admin/login/page": "action-browser"
-      }
-    },
-    "cde209d5b089234fd59a7e924593caaa51911486": {
-      "workers": {
-        "app/admin/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cnamay%20jain%5C%5CDownloads%5C%5Czenwest%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%22logout%22%2C%22authenticate%22%5D%5D%5D&__client_imported__=!",
-        "app/admin/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cnamay%20jain%5C%5CDownloads%5C%5Czenwest%5C%5Capp%5C%5Cadmin%5C%5Clogin%5C%5Cactions.ts%22%2C%5B%22logout%22%2C%22authenticate%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/admin/page": "rsc",
-        "app/admin/login/page": "action-browser"
-      }
-    },
-    "4d612dc575b14a7a99f08f1f598445c37144986c": {
-      "workers": {
-        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Cnamay%20jain%5C%5CDownloads%5C%5Czenwest%5C%5Capp%5C%5Cadmin%5C%5Cactions.ts%22%2C%5B%22deleteLead%22%5D%5D%5D&__client_imported__=true!"
-      },
-      "layer": {
-        "app/admin/page": "action-browser"
-      }
-    }
-  },
+  "node": {},
   "edge": {},
-  "encryptionKey": "F3RO5CfqUwRG+9J66xj6qb9pO0tZrCuUF967zNW1DKo="
+  "encryptionKey": "MnpScvjC33LA9CC9X+Qd5E6YKsFKop9Aub+ftj0GOHc="
 }
