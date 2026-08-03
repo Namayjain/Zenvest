@@ -30,15 +30,7 @@ export default function Hero() {
 
       <Container className="relative grid grid-cols-1 items-center gap-12 py-16 md:py-24 lg:grid-cols-12 lg:py-28">
         <div className="lg:col-span-7">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 rounded-full border border-navy-100 bg-white/70 px-3 py-1.5 text-xs font-medium text-navy-700 shadow-sm backdrop-blur"
-          >
-            <Sparkles size={14} className="text-gold-500" />
-            AMFI Registered &middot; ARN-365239
-          </motion.div>
+
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}

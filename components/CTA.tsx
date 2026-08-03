@@ -44,7 +44,7 @@ export default function CTA() {
               href="/contact"
               className="group inline-flex items-center gap-3 rounded-full bg-white px-7 py-4 text-sm font-semibold text-navy-900 transition-all hover:-translate-y-0.5 hover:bg-gold-100"
             >
-              Talk to an advisor
+              Talk to an expert
               <ArrowRight
                 size={16}
                 className="transition-transform group-hover:translate-x-1"

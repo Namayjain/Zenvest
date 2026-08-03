@@ -4,10 +4,10 @@ export const site = {
   tagline: "Crafting Wealth for Generations",
   arn: "ARN-365239",
   email: "zenvestw@gmail.com",
-  address: "Joraphokhar, Dhanbad - 828111, Jharkhand (I)",
-  // Google Maps embed for Joraphokhar, Dhanbad
+  address: "Katras Road Matkuria, Sanjay Nagar, Dhanbad - 826001, Jharkhand",
+  // Google Maps embed for the new address
   mapEmbed:
-    "https://www.google.com/maps?q=Joraphokhar,+Dhanbad,+Jharkhand+828111&output=embed",
+    "https://www.google.com/maps?q=Katras+Road+Matkuria,+Sanjay+Nagar,+Dhanbad,+Jharkhand+826001&output=embed",
   social: {
     facebook: "#",
     instagram: "#",

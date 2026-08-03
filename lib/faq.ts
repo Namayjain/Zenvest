@@ -15,10 +15,7 @@ export const faqs = [
     q: "How much do I need to start investing?",
     a: "You can start a mutual fund SIP with as little as ₹500 per month. For fixed deposits and bonds, minimums vary by issuer. For PMS, the SEBI-mandated minimum is ₹50 lakh, and AIFs typically require ₹1 crore."
   },
-  {
-    q: "How are Zenvest's fees structured?",
-    a: "As AMFI-registered mutual fund distributors, we earn trail commissions built into the scheme expense ratio — there is no separate fee charged to you for regular plans. For advisory and PMS/AIF onboarding, fees are transparently agreed in writing before you invest."
-  },
+
   {
     q: "Can I withdraw my investments anytime?",
     a: "Most open-ended mutual funds and bank FDs are liquid within a few days, sometimes with a small exit load or penalty. ELSS has a 3-year lock-in, PPF is 15 years, and PMS/AIFs have their own defined lock-ins. We ensure your liquidity ladder is planned in advance."

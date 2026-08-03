@@ -34,11 +34,44 @@ export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "err">("idle");
   const [error, setError] = useState<string | null>(null);
 
-  const onChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) =>
-    setForm((f) => ({ ...f, [e.target.name]: e.target.value }));
+  const onChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    let value = e.target.value;
+    if (e.target.name === "phone") {
+      // Allow only digits, plus, minus, and spaces for phone
+      value = value.replace(/[^\d+\-\s]/g, "");
+    }
+    setForm((f) => ({ ...f, [e.target.name]: value }));
+  };
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
+    
+    if (!form.name.trim()) {
+      setError("Please enter your full name.");
+      setStatus("err");
+      return;
+    }
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(form.email)) {
+      setError("Please enter a valid email address.");
+      setStatus("err");
+      return;
+    }
+    
+    const phoneClean = form.phone.replace(/[-+\s]/g, "");
+    if (phoneClean.length < 10) {
+      setError("Please enter a valid phone number (at least 10 digits).");
+      setStatus("err");
+      return;
+    }
+
+    if (form.message.trim().length < 10) {
+      setError("Please enter a message (at least 10 characters).");
+      setStatus("err");
+      return;
+    }
+
     setStatus("loading");
     setError(null);
     try {
@@ -81,7 +114,7 @@ export default function ContactForm() {
           Thank you!
         </h3>
         <p className="mt-2 max-w-sm text-navy-700">
-          Your message has been received. A Zenvest advisor will reach out within
+          Your message has been received. A Zenvest expert will reach out within
           one business day.
         </p>
         <button

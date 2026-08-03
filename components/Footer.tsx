@@ -19,10 +19,7 @@ export default function Footer() {
             {site.tagline}. AMFI-registered mutual fund distributors serving Indian
             families since inception with a goal-first, transparent approach.
           </p>
-          <div className="rounded-xl bg-white p-3 text-xs shadow-sm ring-1 ring-navy-100">
-            <span className="font-semibold text-navy-800">{site.arn}</span>
-            <span className="ml-2 text-navy-600">AMFI Registered</span>
-          </div>
+
         </div>
 
         <div>
@@ -99,14 +96,46 @@ export default function Footer() {
         </div>
       </Container>
 
-      <div className="border-t border-navy-100 bg-white/60">
-        <Container className="flex flex-col items-start gap-3 py-5 text-xs text-navy-600">
-          <p className="max-w-3xl leading-relaxed text-navy-700">
-            &copy; {new Date().getFullYear()} Zenvest Wealth. All rights reserved. | <span className="font-semibold text-navy-800">{site.arn}</span>
+      <div className="bg-navy-900 py-10 mt-16 border-t border-navy-800">
+        <Container className="flex flex-col items-center text-center gap-6 text-sm">
+          <p className="text-white/90">
+            Zenvest Wealth is an AMFI Registered Mutual Fund Distributor. ARN - 365239, ARN-366062 EUIN - E698784, E689306
           </p>
-          <p className="max-w-3xl leading-relaxed text-navy-600">
-            Risk Factors – Investments in Mutual Funds are subject to Market Risks. Read all scheme related documents carefully before investing. Mutual Fund Schemes do not assure or guarantee any returns. Past performances of any Mutual Fund Scheme may or may not be sustained in future. There is no guarantee that the investment objective of any suggested scheme shall be achieved. All existing and prospective investors are advised to check and evaluate the Exit loads and other cost structure (TER) applicable at the time of making the investment before finalizing on any investment decision for Mutual Funds schemes. We deal in Regular Plans only for Mutual Fund Schemes and earn a Trailing Commission on client investments. Disclosure For Commission earnings is made to clients at the time of investments. Option of Direct Plan for every Mutual Fund Scheme is available to investors offering advantage of lower expense ratio. We are not entitled to earn any commission on Direct plans. Hence we do not deal in Direct Plans.
+          
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-white/80">
+            <Link href="/privacy-policy" className="hover:text-gold-400">Privacy Policy</Link>
+            <span className="hidden text-white/40 md:inline">|</span>
+            <Link href="/commission-disclosure" className="hover:text-gold-400">Commission Disclosure</Link>
+            <span className="hidden text-white/40 md:inline">|</span>
+            <Link href="/terms-and-conditions" className="hover:text-gold-400">Terms &amp; Conditions</Link>
+            <span className="hidden text-white/40 md:inline">|</span>
+            <Link href="/admin" className="hover:text-gold-400">Admin Login</Link>
+          </div>
+
+          <p className="mt-2 max-w-6xl text-justify text-[11px] leading-relaxed text-white/60">
+            Disclaimer: Mutual Fund investments are subject to market risks, read all scheme related documents carefully. The NAVs of the schemes may go up or down depending upon the factors and forces affecting the securities market including the fluctuations in the interest rates. The past performance of the mutual funds is not necessarily indicative of future performance of the schemes. The Mutual Fund is not guaranteeing or assuring any dividend under any of the schemes and the same is subject to the availability and adequacy distributable surplus.
           </p>
+
+          <p className="max-w-6xl text-justify text-[11px] leading-relaxed text-white/60">
+            Zenvest Wealth makes no warranties or representations, express or implied, on products offered through the platform. It accepts no liability for any damages or losses, however, caused, in connection with the use of, or on the reliance of its product or related services. Terms and conditions of the website are applicable. Investments in Securities markets are subject to market risks, read all the related documents carefully before investing.
+          </p>
+
+          <div className="mt-4 flex w-full max-w-4xl flex-col items-center justify-center gap-6 rounded-lg bg-white p-4 shadow-md md:flex-row">
+            <div className="flex items-center gap-4 border-b border-navy-100 pb-4 md:border-b-0 md:border-r md:pb-0 md:pr-6">
+              <img src="/images/amfi-logo.png" alt="AMFI Logo" className="h-12 w-auto object-contain" />
+              <div className="flex flex-col text-left text-[11px] font-semibold text-navy-900">
+                <span>ARN-365239 | EUIN - E698784</span>
+                <span>ARN-366062 | EUIN - E689306</span>
+              </div>
+            </div>
+            <div className="pl-0 md:pl-2">
+              <img src="/images/mf-sahi-hai.png" alt="Mutual Funds Sahi Hai" className="h-12 w-auto object-contain" />
+            </div>
+          </div>
+          
+          <div className="mt-4 flex w-full max-w-6xl flex-col items-center justify-between border-t border-white/10 pt-6 text-[11px] text-white/50 sm:flex-row">
+            <p>&copy; {new Date().getFullYear()} Zenvest Wealth. All Rights Reserved.</p>
+          </div>
         </Container>
       </div>
     </footer>

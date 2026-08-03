@@ -3,29 +3,36 @@
 import { motion } from "framer-motion";
 import Container from "./Container";
 import FallbackImage from "./FallbackImage";
-import { ClipboardList, PiggyBank, ShieldCheck } from "lucide-react";
+import { Target, Map, TrendingUp, RefreshCw } from "lucide-react";
 
 const steps = [
   {
-    title: "Insure - Save - Invest",
+    title: "Know Your Goals",
     description:
-      "Prioritize acquiring a life insurance policy before making investments for your future financial goals. By doing so, you can safeguard your future wealth from potential unforeseen events. It is essential to have sufficient savings before venturing into investing for the future. Once you have built up an adequate savings cushion, our digital platforms can assist you in executing your investment decisions efficiently.",
+      "Understand your financial aspirations, current financial position, and risk profile.",
     image: "/images/process/step-1.png",
-    icon: <ShieldCheck size={32} className="text-moss-600" />
+    icon: <Target size={32} className="text-moss-600" />
   },
   {
-    title: "Choose the right scheme",
+    title: "Create Your Financial Roadmap",
     description:
-      'Navigating the multitude of investment schemes available can be overwhelming, as it can be difficult to identify the most suitable one for your needs. Recommendations such as "Best Funds" or "Top Three Funds" can also add to the confusion. However, our website and mobile application provide ample information and tools to help you make an informed decision and choose the scheme that best aligns with your preferences.',
+      "Develop a personalized, goal-based investment plan tailored to your timeline and priorities.",
     image: "/images/process/step-2.png",
-    icon: <ClipboardList size={32} className="text-moss-600" />
+    icon: <Map size={32} className="text-moss-600" />
   },
   {
-    title: "Post Purchase Services",
+    title: "Invest Smartly",
     description:
-      "Effectively managing investments after purchase is crucial, yet can prove to be a challenge for busy investors. At Zenvest, we are committed to offering a comprehensive suite of investment-related services to ensure seamless management of your investments. Our digital transaction options, detailed scheme-related information, and 24/7 access to your investment details, aim to enhance your overall investing experience and track your investments on-the-go, even amidst a busy schedule.",
+      "Choose suitable mutual fund solutions and start investing systematically to build long-term wealth.",
     image: "/images/process/step-3.png",
-    icon: <PiggyBank size={32} className="text-moss-600" />
+    icon: <TrendingUp size={32} className="text-moss-600" />
+  },
+  {
+    title: "Review & Stay on Track",
+    description:
+      "Monitor your portfolio regularly, review progress, and make adjustments as your goals or circumstances evolve.",
+    image: "/images/process/step-4.png",
+    icon: <RefreshCw size={32} className="text-moss-600" />
   }
 ];
 

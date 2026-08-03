@@ -58,7 +58,7 @@ export const services: Service[] = [
       {
         type: "image",
         src: "/images/services/mutual-funds-body-2.jpg",
-        alt: "Advisor reviewing mutual fund performance with a client"
+        alt: "Expert reviewing mutual fund performance with a client"
       },
       {
         type: "heading",
@@ -219,7 +219,7 @@ export const services: Service[] = [
       {
         type: "image",
         src: "/images/services/tax-saving-body-2.jpg",
-        alt: "Advisor explaining tax-saving strategy on a whiteboard"
+        alt: "Expert explaining tax-saving strategy on a whiteboard"
       },
       {
         type: "paragraph",
@@ -442,6 +442,84 @@ export const services: Service[] = [
       {
         type: "paragraph",
         text: "Our goal is to help you maintain your desired standard of living without the fear of outliving your savings. We design a glide path that balances growth and capital preservation, so you can enjoy your golden years with complete financial dignity."
+      }
+    ]
+  },
+  {
+    slug: "loan-against-security",
+    title: "Loan Against Security",
+    tagline: "Instant liquidity. Zero liquidation.",
+    short: "Raise instant funds against your shares, mutual funds, and insurance without selling them.",
+    icon: "LAS",
+    heroImage: "/images/services/las-hero.png",
+    cardImage: "/images/services/las-card.png",
+    color: "gold",
+    content: [
+      {
+        type: "paragraph",
+        text: "LAS (Loan Against Securities) is a loan availed against your pledged securities as collateral. It allows you to raise instant funds against shares, mutual funds, insurance etc., without selling them."
+      },
+      {
+        type: "image",
+        src: "/images/services/las-body.png",
+        alt: "Illustration of overdraft facility against investments"
+      },
+      {
+        type: "heading",
+        text: "Why choose Loan Against Security?"
+      },
+      {
+        type: "bullets",
+        items: [
+          "Pledge your securities and get an overdraft facility up to a certain value.",
+          "Interest is calculated only on the amount withdrawn.",
+          "Pay interest only for the period of utilization.",
+          "Keep earning dividends and capital appreciation on your pledged investments.",
+          "Quick processing with minimal documentation compared to traditional loans."
+        ]
+      },
+      {
+        type: "paragraph",
+        text: "Whether it's a short-term cash flow requirement or a sudden financial need, our Loan Against Securities helps you unlock the value of your portfolio without disrupting your long-term wealth creation journey."
+      }
+    ]
+  },
+  {
+    slug: "specialised-investment-fund",
+    title: "Specialised Investment Fund",
+    tagline: "Advanced strategies for sophisticated investors.",
+    short: "Bridge the gap between mutual funds and PMS with SEBI-regulated alternative strategies.",
+    icon: "SIF",
+    heroImage: "/images/services/sif-hero.png",
+    cardImage: "/images/services/sif-card.png",
+    color: "navy",
+    content: [
+      {
+        type: "paragraph",
+        text: "A Specialised Investment Fund (SIF) is a SEBI-regulated investment category that bridges the gap between traditional mutual funds and Portfolio Management Services (PMS). It allows advanced strategies like long-short investing and derivatives."
+      },
+      {
+        type: "image",
+        src: "/images/services/sif-body.png",
+        alt: "Dashboard showing advanced specialized investment fund strategies"
+      },
+      {
+        type: "heading",
+        text: "Key features of SIFs"
+      },
+      {
+        type: "bullets",
+        items: [
+          "Requires a minimum investment of ₹10 lakh, making it accessible to a wider tier of investors.",
+          "SEBI-regulated framework ensuring robust compliance and transparency.",
+          "Access to complex strategies like long-short, market-neutral, and derivatives.",
+          "Bridges the gap for investors looking to step up from mutual funds before committing to a full PMS.",
+          "Potential for alpha generation in volatile or range-bound markets."
+        ]
+      },
+      {
+        type: "paragraph",
+        text: "With lower entry barriers than traditional PMS but greater flexibility than standard mutual funds, Specialised Investment Funds are ideal for experienced investors looking to add tactical, absolute-return strategies to their core portfolio."
       }
     ]
   }

@@ -9,7 +9,7 @@ export const testimonials = [
     name: "Ananya Sen",
     role: "Doctor, Dhanbad",
     quote:
-      "As someone with almost no time to track markets, I needed advisors I could trust. The Zenvest team is patient, transparent about fees, and always available when I have a question."
+      "As someone with almost no time to track markets, I needed experts I could trust. The Zenvest team is patient, transparent about fees, and always available when I have a question."
   },
   {
     name: "Vikram Iyer",
