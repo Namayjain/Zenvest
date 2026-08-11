@@ -29,7 +29,7 @@ export default function Navbar() {
           : "bg-white/60 backdrop-blur"
       )}
     >
-      <Container className="flex h-20 items-center justify-between">
+      <Container className="flex h-20 md:h-24 items-center justify-between">
         <Logo />
 
         <nav className="hidden items-center gap-1 lg:flex">
@@ -47,7 +47,9 @@ export default function Navbar() {
 
         <div className="hidden lg:block">
           <Link
-            href="/contact"
+            href="https://play.google.com/store/apps/details?id=com.fiinfrazenvestwelth"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-navy-800 px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-transform hover:-translate-y-0.5 hover:bg-navy-700"
           >
             Start Investing
@@ -85,7 +87,9 @@ export default function Navbar() {
                 </Link>
               ))}
               <Link
-                href="/contact"
+                href="https://play.google.com/store/apps/details?id=com.fiinfrazenvestwelth"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className="mt-2 inline-flex items-center justify-center rounded-full bg-navy-800 px-5 py-3 text-sm font-semibold text-white"
               >
