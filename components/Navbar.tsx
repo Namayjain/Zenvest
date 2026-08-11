@@ -29,7 +29,7 @@ export default function Navbar() {
           : "bg-white/60 backdrop-blur"
       )}
     >
-      <Container className="flex h-20 md:h-24 items-center justify-between">
+      <Container className="flex h-24 md:h-28 lg:h-32 items-center justify-between">
         <Logo />
 
         <nav className="hidden items-center gap-1 lg:flex">
