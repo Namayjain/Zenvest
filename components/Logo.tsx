@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function Logo({ variant = "dark" }: { variant?: "dark" | "light" }) {
   return (
-    <Link href="/" className="group flex flex-col items-start">
+    <Link href="/" className="group flex flex-col items-start overflow-visible">
       <img
         src="/images/logo.png"
         alt="Zenvest Wealth logo"
-        className="h-20 md:h-24 lg:h-28 w-auto object-contain"
+        className="h-20 md:h-24 lg:h-28 w-auto object-contain scale-x-[1.25] origin-left"
       />
     </Link>
   );
