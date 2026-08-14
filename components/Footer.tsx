@@ -13,8 +13,8 @@ export default function Footer() {
         className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-400 to-transparent"
       />
       <Container className="grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-4">
-        <div className="space-y-4">
-          <Logo />
+        <div className="space-y-6">
+          <Logo size="normal" />
           <p className="max-w-xs text-sm leading-relaxed text-navy-700">
             {site.tagline}. AMFI-registered mutual fund distributors serving Indian
             families since inception with a goal-first, transparent approach.
@@ -101,7 +101,7 @@ export default function Footer() {
           <p className="text-white/90">
             Zenvest Wealth is an AMFI Registered Mutual Fund Distributor. ARN - 366062, EUIN - E689306
           </p>
-          
+
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-white/80">
             <Link href="/privacy-policy" className="hover:text-gold-400">Privacy Policy</Link>
             <span className="hidden text-white/40 md:inline">|</span>
@@ -132,7 +132,7 @@ export default function Footer() {
               <img src="/images/mf-sahi-hai.png" alt="Mutual Funds Sahi Hai" className="h-12 w-auto object-contain" />
             </div>
           </div>
-          
+
           <div className="mt-4 flex w-full max-w-6xl flex-col items-center justify-between border-t border-white/10 pt-6 text-[11px] text-white/50 sm:flex-row">
             <p>&copy; {new Date().getFullYear()} Zenvest Wealth. All Rights Reserved.</p>
           </div>
