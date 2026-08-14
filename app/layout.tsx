@@ -18,7 +18,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Zenvest Wealth",
     description: "Crafting Wealth for Generations",
-    type: "website"
+    type: "website",
+    url: "https://zenvestwealth.com",
+  },
+  keywords: ["Mutual Funds", "Wealth Management", "Investment Distributor", "AMFI Registered", "Financial Planning", "Dhanbad", "India"],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   }
 };
 
