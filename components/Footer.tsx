@@ -99,7 +99,7 @@ export default function Footer() {
       <div className="bg-navy-900 py-10 mt-16 border-t border-navy-800">
         <Container className="flex flex-col items-center text-center gap-6 text-sm">
           <p className="text-white/90">
-            Zenvest Wealth is an AMFI Registered Mutual Fund Distributor. ARN - 365239, ARN-366062 EUIN - E698784, E689306
+            Zenvest Wealth is an AMFI Registered Mutual Fund Distributor. ARN - 366062, EUIN - E689306
           </p>
           
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-white/80">
@@ -123,9 +123,9 @@ export default function Footer() {
           <div className="mt-4 flex w-full max-w-4xl flex-col items-center justify-center gap-6 rounded-lg bg-white p-4 shadow-md md:flex-row">
             <div className="flex items-center gap-4 border-b border-navy-100 pb-4 md:border-b-0 md:border-r md:pb-0 md:pr-6">
               <img src="/images/amfi-logo.png" alt="AMFI Logo" className="h-12 w-auto object-contain" />
-              <div className="flex flex-col text-left text-[11px] font-semibold text-navy-900">
-                <span>ARN-365239 | EUIN - E698784</span>
-                <span>ARN-366062 | EUIN - E689306</span>
+              <div className="flex flex-col text-left text-[12px] font-semibold text-navy-900 leading-tight">
+                <span>Chandan Kumar Rawani [ARN-366062 | EUIN: E689306]</span>
+                <span>AMFI-registered Mutual Fund Distributor</span>
               </div>
             </div>
             <div className="pl-0 md:pl-2">
