@@ -98,10 +98,6 @@ export default function Footer() {
 
       <div className="bg-navy-900 py-10 mt-16 border-t border-navy-800">
         <Container className="flex flex-col items-center text-center gap-6 text-sm">
-          <p className="text-white/90">
-            Zenvest Wealth is an AMFI Registered Mutual Fund Distributor. ARN - 366062, EUIN - E689306
-          </p>
-
           <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-white/80">
             <Link href="/privacy-policy" className="hover:text-gold-400">Privacy Policy</Link>
             <span className="hidden text-white/40 md:inline">|</span>
