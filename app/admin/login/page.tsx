@@ -4,8 +4,10 @@ import { useState } from "react";
 import { Lock, User } from "lucide-react";
 import { authenticate } from "./actions";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function AdminLogin() {
+  const router = useRouter();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -16,10 +18,21 @@ export default function AdminLogin() {
     setLoading(true);
     setError("");
     
-    const result = await authenticate(username, password);
-    
-    if (result.error) {
-      setError(result.error);
+    try {
+      const result = await authenticate(username, password);
+      
+      if (result?.success) {
+        router.push("/admin");
+        router.refresh();
+      } else if (result?.error) {
+        setError(result.error);
+        setLoading(false);
+      } else {
+        setError("Invalid username or password.");
+        setLoading(false);
+      }
+    } catch (err: any) {
+      setError(err?.message || "An unexpected error occurred.");
       setLoading(false);
     }
   }
