@@ -2,7 +2,14 @@ export const site = {
   name: "Zenvest Wealth",
   short: "Zenvest",
   tagline: "Crafting Wealth for Generations",
-  arn: "ARN-366062",
+  arn: "ARN-370557",
+  euin: "E084436",
+  initialRegistrationDate: "19/09/2024",
+  currentValidityDate: "18/09/2029",
+  grievanceOfficer: {
+    name: "Chandra Kishor Sharma",
+    email: "explorechandrakishor@gmail.com"
+  },
   email: "zenvestw@gmail.com",
   address: "Katras Road Matkuria, Sanjay Nagar, Dhanbad - 826001, Jharkhand",
   // Google Maps embed for the new address
