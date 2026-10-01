@@ -116,19 +116,9 @@ export default function Footer() {
             Zenvest Wealth makes no warranties or representations, express or implied, on products offered through the platform. It accepts no liability for any damages or losses, however, caused, in connection with the use of, or on the reliance of its product or related services. Terms and conditions of the website are applicable. Investments in Securities markets are subject to market risks, read all the related documents carefully before investing.
           </p>
 
-          <div className="mt-4 flex w-full max-w-3xl flex-col items-center justify-center gap-6 rounded-lg bg-white px-6 py-4 shadow-md md:flex-row">
-            <div className="flex flex-col text-center md:text-left text-[13px] font-semibold text-navy-900 leading-tight border-b border-navy-100 pb-4 md:border-b-0 md:border-r md:pb-0 md:pr-6">
-              <span>Zenvest Wealth [ARN-370557]</span>
-              <span className="text-navy-700 font-medium text-[12px] mt-0.5">AMFI-registered Mutual Fund Distributor</span>
-            </div>
-            <div className="pl-0 md:pl-2">
-              <img src="/images/mf-sahi-hai.png" alt="Mutual Funds Sahi Hai" className="h-10 md:h-12 w-auto object-contain" />
-            </div>
-          </div>
-
-          <div className="mt-4 space-y-2 text-center text-[11px] leading-relaxed text-white/70">
+          <div className="mt-2 space-y-2 text-center text-[12px] leading-relaxed text-white/70">
             <p>
-              AMFI Registered Mutual Fund Distributor | ARN- 370557 | Date of initial Registration: 19/09/2024 | Current validity: 18/09/2029
+              AMFI Registered Mutual Fund Distributor | ARN- 370557 | Date of initial Registration: 19/09/2026 | Current validity: 18/09/2029
             </p>
             <p>
               Grievance Officer: Chandra Kishor Sharma | Email:{" "}
