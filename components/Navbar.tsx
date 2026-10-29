@@ -47,12 +47,12 @@ export default function Navbar() {
 
         <div className="hidden lg:block">
           <Link
-            href="https://play.google.com/store/apps/details?id=com.fiinfrazenvestwelth"
+            href="https://zenvest.my-portfolio.co.in/app/#/login"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-navy-800 px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition-transform hover:-translate-y-0.5 hover:bg-navy-700"
           >
-            Start Investing
+            Login
             <span className="text-gold-300">&rarr;</span>
           </Link>
         </div>
@@ -87,13 +87,13 @@ export default function Navbar() {
                 </Link>
               ))}
               <Link
-                href="https://play.google.com/store/apps/details?id=com.fiinfrazenvestwelth"
+                href="https://zenvest.my-portfolio.co.in/app/#/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpen(false)}
                 className="mt-2 inline-flex items-center justify-center rounded-full bg-navy-800 px-5 py-3 text-sm font-semibold text-white"
               >
-                Start Investing
+                Login
               </Link>
             </Container>
           </motion.div>
